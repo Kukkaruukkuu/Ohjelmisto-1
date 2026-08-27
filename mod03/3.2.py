@@ -1,3 +1,5 @@
+# Kirjoita ohjelma, joka kysyy ympyrän säteen ja tulostaa sen pinta-alan.
+
 import math
 
 säde = input("Anna ympyrän säteen pituus: ")
