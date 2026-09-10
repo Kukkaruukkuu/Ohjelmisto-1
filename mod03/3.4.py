@@ -9,6 +9,6 @@ summa = eka_luku + toka_luku + kolmas_luku
 tulo = eka_luku * toka_luku * kolmas_luku
 keskiarvo = (eka_luku + toka_luku + kolmas_luku) / 3
 
-print(f"Lukujen summa: {summa: .2}")
-print(f"Lukujen tulo: {tulo: .2}")
-print(f"Lukujen keskiarvo: {keskiarvo: .2}")
+print(f"Lukujen summa: {summa: .2f}")
+print(f"Lukujen tulo: {tulo: .2f}")
+print(f"Lukujen keskiarvo: {keskiarvo: .2f}")
