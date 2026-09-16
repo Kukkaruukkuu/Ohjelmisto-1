@@ -17,13 +17,12 @@ tehtävä 4 vielä kesken
 
 ## Moduuli 5
 
-Tein tehtävät 1, 2, 4 ja 5.
-3 vielä tekemättä
+Tein tehtävät 1, 2, 3, 4 ja 5.
 6 jää herran haltuun (ehkä teen)
 
 ## Moduuli 6
 
-
+Tein tehtävät 1, 2
 
 ## Moduuli 7
 
