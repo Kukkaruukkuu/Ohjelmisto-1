@@ -12,8 +12,7 @@ Tein tehtävät 1, 2, 3, 4, 5 ja 6. (kaikki)
 
 ## Moduuli 4
 
-Tein tehtävät 1, 2, 3
-tehtävä 4 vielä kesken
+Tein tehtävät 1, 2, 3 ja 4. (kaikki)
 
 ## Moduuli 5
 
