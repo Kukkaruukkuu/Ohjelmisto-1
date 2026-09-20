@@ -23,6 +23,21 @@ Tein tehtävät 1, 2, 3, 4 ja 5.
 ## Moduuli 6
 
 Tein tehtävät 1, 2
+Vielä kesken
 
 ## Moduuli 7
 
+Vielä tekemättä, 1 ja 2 aloitettu
+
+## Moduuli 8
+
+Vielä tekemättä
+
+## Moduuli 9
+
+Tein tehtävät 1
+2 aloitettu ja muute kesken
+
+## Moduuli 10
+
+Vielä tekemättä
