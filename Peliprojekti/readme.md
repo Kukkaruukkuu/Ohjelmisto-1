@@ -67,7 +67,8 @@ Menusta pääsee tällä hetkellä starttiin, ohjeisiin ja sulkemaan pelin.
 Peli_roinat tiedostossa on sekalaisesti classeja ja funktioita.
 Pitää vielä siivota ja laittaa vaikka omiin tiedostoihin.
 
-
+Tehty inventory lista ja tätä varten tehty funktio joka lisää listaan tavaran.
+Inventory print löytyy status funktiosta.
 
 
 
