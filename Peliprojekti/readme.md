@@ -1,5 +1,7 @@
 # Ohjelmisto 1 - Peliprojekti
 
+NIMI??
+
 **Milla Sundell**
 
 # Vaatimukst
@@ -23,6 +25,7 @@ Pelin Git-repositorio julkaistaan ja jaetaan opettajille GitHubissa
 # Ideoita
 
 MAP?? mappi funktio jonka kautta näkis kartan koko alueesta? näkyiskö pelihahmo vai ei? Kartta vois olla piirretty viivoilla, [], yms
+    piilotettuja huoneita?
 
 Useampi eri huone?
     osasta voi kuolla/game over tai jos kuolee niin palata paikkaan ennen kuolemaa?
@@ -30,6 +33,28 @@ Useampi eri huone?
 Huoneet jotka tarttee tietyn asian jotta voi kulkea sitä kautta. Esim avain, torchi pimeässä huoneessa.
 
 Inventori jossa on painoraja? Inviin vois lisätä/poistaa tavaraa, vois saada listan mitä siellä on. Kaikilla tavaroilla oma paino?
+
+Vaikeustaso??
+
+KARTTA:
+ --------------------------------------------------------
+ |         --------     --------     --------     ----  |
+ |        |   1    |---|    2   |---|    4   |---|  6 | |
+ |         --------     --------     --------     ----  |
+ |        /                  |             |            |
+ |    -----               --------      --------        |
+ |   |ALKU |             |   3    |    |    5   |       |
+ |    -----               --------      --------        |
+ |       Move with the map.                  |          |
+ |    Remember where you are!               ---         |
+ |  Move up, down, left or right.          |WIN|        |
+ |                                          ---         |
+ --------------------------------------------------------           
+
+Maailma jossa ihmiset on muuttanu ilmastonmuutoksen takia maan alle.
+Muutosta on yli (hyvin monta vuotta). Kukaan elävä ihminen ei ole käynyt maan pinnalla, mutta huhuja kuitenkin sinne pääsystä on.
+Huhujen mukaan erään labran sisällä sijaitsee hissi jonka avulla kulku maan pinnalle olisi mahdollista.
+
 
 # Projekti 1
 Luotu tiedosto joka kysyy nimen ja iän
