@@ -17,7 +17,7 @@ Tein tehtävät 1, 2, 3 ja 4. (kaikki)
 ## Moduuli 5
 
 Tein tehtävät 1, 2, 3, 4 ja 5.
-6 jää herran haltuun (ehkä teen)
+6 jää herran haltuun (ehkä teen) 
 
 ## Moduuli 6
 
@@ -40,3 +40,6 @@ Tein tehtävät 1
 ## Moduuli 10
 
 Vielä tekemättä
+
+## Moduuli 11
+

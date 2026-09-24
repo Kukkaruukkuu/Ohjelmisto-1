@@ -2,9 +2,10 @@ import math
 import time
 
 def aloita():
-    print("peli alkaa")
-    return
-
+    # Peli funktio täällä
+    print("aloita -func")
+    
+    
 def ohjeet():
     print('''
         -----------------------------------------------------------------
@@ -25,14 +26,13 @@ def ohjeet():
         KANTO PAINO
         INVENTAARIO
         -----------------------------------------------------------------''')
-    return
+    
 
 def sulje():
     print('Sulje peli kiejoittamalla "lopeta": ')
     komento = input("> ").lower()
-    if komento == "sulje":
-        komento = "lopeta".lower()
-    return komento
+    if komento == "lopeta":
+        quit()
 
 
 def menu():
@@ -41,65 +41,27 @@ def menu():
     ALOITA      OHJEET      SULJE''')
     komento = input("> ").lower()
     if komento == "aloita":
-        komento = aloita()
+        aloita()
     if komento == "ohjeet":
-        komento = ohjeet()
+        ohjeet()
     if komento == "sulje":
-        komento = sulje()
-    return komento
+        sulje()
 
-
-def kartta():
-    print(''' 
- --------------------------------------------------------
- |         --------     --------     --------     ----  |
- |        |        |---|        |---|        |---|    | |
- |         --------     --------     --------     ----  |
- |        /                  |             |            |
- |    -----               --------      --------        |
- |   |     |             |        |    |        |       |
- |    -----               --------      --------        |
- |      ^                                    |          |
- |                                          ---         |
- |                                         |   |        |
- |                                          ---         |
- --------------------------------------------------------                                                                                ''') 
-    return         
-
-huoneet = {"start" : {"ylös" : "huone1"},
-           
-           "huone1" : {"alas" : "start",
-                       "oikealle" : "huone2"},
-
-            "huone2" : {"alas" : "huone3",
-                       "oikealle" : "huone4",
-                       "vasemmalle" : "huone5"},
-
-            "huone3" : {"ylös" : "huone2"},
-
-            "huone4" : {"alas" : "huone5",
-                       "oikealle" : "huone6",
-                       "vasemmalle" : "huone2"},
-
-            "huone5" : {"alas" : "hissi",
-                       "ylös" : "huone4"},
-
-            "huone6" : {"vasemmalle" : "huone4"},
-
-            "hissi" : {"ylös" : "huone5"}}
 
 user_nimi = input("Kuka olet: ")
 user_ika = int(input("Ikä: "))
 
+if user_ika <= 11:
+    print("Pelaaja liian nuori. Pelaajan tulee olla vähintään 12-vuotias.")
+    quit()
+if user_ika >= 12:
+    print("Tervetuloa LABRAAN", user_nimi, "!")
+    time.sleep(1)
+
 while True:
-    if user_ika <= 11:
-        print("Pelaaja liian nuori. Pelaajan tulee olla vähintään 12-vuotias.")
-        break
-    if user_ika >= 12:
-        print("Tervetuloa LABRAAN", user_nimi, "!")
-        time.sleep(1)
-        if menu() == "lopeta":
-            break
+    menu()
+
+ 
 
 ##MAHDOLLINEN LIIKKUMIS TAPA??
 # def suunta():

@@ -56,17 +56,19 @@ Muutosta on yli (hyvin monta vuotta). Kukaan elävä ihminen ei ole käynyt maan
 Huhujen mukaan erään labran sisällä sijaitsee hissi jonka avulla kulku maan pinnalle olisi mahdollista.
 
 
-# Projekti 1
+# Projektin teko
 Luotu tiedosto joka kysyy nimen ja iän
 
-# Projekti 2
 Tehty while joka estää pelaajaa pelaamasta jos on alle 12v
+Jos pelaaja on 12 tai yli niin aukeaa menu.
 
-# Projekti 3
+Menusta pääsee tällä hetkellä starttiin, ohjeisiin ja sulkemaan pelin.
 
-# Projekti 4
+Peli_roinat tiedostossa on sekalaisesti classeja ja funktioita.
+Pitää vielä siivota ja laittaa vaikka omiin tiedostoihin.
 
-# Projekti 5
+
+
 
 
 
