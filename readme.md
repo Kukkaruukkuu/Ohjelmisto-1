@@ -30,7 +30,7 @@ Vielä tekemättä, 1 ja 2 aloitettu
 
 ## Moduuli 8
 
-Vielä tekemättä
+Tein tehtävät 1 ja 2. 3 vielä tekemättä
 
 ## Moduuli 9
 
