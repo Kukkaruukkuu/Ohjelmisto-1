@@ -4,24 +4,6 @@ NIMI??
 
 **Milla Sundell**
 
-# Vaatimukst
-Pelillä on tarina ja pelaajalla selkeä tavoite
-    Huomioi, että peli-ideaa tärkeämpää on tekninen toteutus, joten hyvän idean keksimisestä ei tarvitse ottaa paineita
-    Peli-ideassa otetaan jollain tavalla huomioon joku kestävän kehityksen tavoitetta.
-    Soveltuu myös alaikäisille (“K12”)
-
-Tarjoaa useampia vaihtoehtoisia reittejä pelaajalle edetä alusta loppuun
-
-Komentorivikäyttöliittymä, jossa pääsilmukka ja valikot
-
-Koodin rivimäärä yhteensä vähintään noin 200 riviä ja enintään 1000 riviä kommentteineen ???
-
-Dokumentaatio
-    readme.md-tiedosto repositoriossa: kuvaa tarkasti pelin idean, tavoitteen, toimintaperiaatteet ja toiminnallisuudet sekä miten kestävän kehityksen näkökulma on otettu huomioon
-    koodin asianmukainen kommentointi
-
-Pelin Git-repositorio julkaistaan ja jaetaan opettajille GitHubissa
-
 # Ideoita
 
 MAP?? mappi funktio jonka kautta näkis kartan koko alueesta? näkyiskö pelihahmo vai ei? Kartta vois olla piirretty viivoilla, [], yms
@@ -45,9 +27,9 @@ KARTTA:
  |    -----               --------      --------        |
  |   |ALKU |             |   3    |    |    5   |       |
  |    -----               --------      --------        |
- |       Move with the map.                  |          |
- |    Remember where you are!               ---         |
- |  Move up, down, left or right.          |WIN|        |
+ |                                           |          |
+ |                                          ---         |
+ |                                         |WIN|        |
  |                                          ---         |
  --------------------------------------------------------           
 
@@ -70,6 +52,12 @@ Pitää vielä siivota ja laittaa vaikka omiin tiedostoihin.
 Tehty inventory lista ja tätä varten tehty funktio joka lisää listaan tavaran.
 Inventory print löytyy status funktiosta.
 
+# TIEDOSTOJEN RAKENNE
 
+peli.py on päätiedosto jossa peli pelataan. Sinne importataan musita tideot.
 
+peli_menu.py sisältää menu tiedot ja funktiot.
 
+peli_roinat.py sisältää vielä sekalaisesti funktioita, classejä ja muita juttuja. Nämä todnäk siirrellään muualle kunhan peliä tehdään eteenpäin.
+
+peli_user.py sisältää pelaajan antamat tiedot, pelaaja classin sekä inventaario listan ja pelaajan statuksen josta näkee inventaarion, healthin yms.
