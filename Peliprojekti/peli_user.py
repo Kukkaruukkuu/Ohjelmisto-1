@@ -1,33 +1,5 @@
 import time
 
-#PELAAJA
-class User:
-    def __init__(self, name, liiku, health = 50, weight = 20, ):
-        self.name = name
-        self.health = health
-        self.weight = weight
-        self.liiku = liiku
-        # self.sijainti = sijainti
-
-
-
-#INVENTORY
-inventory = []
-def inv_add():
-    lisaa = input("Lisää inventoriin: ")
-    inventory.append(lisaa)
-
-#SATUS
-def status():
-    print(f'''
-    {user_nimi} 
-    ELÄMÄT:{user1.health} KANTOPAINO:{user1.weight}
-    -------------------------------------------
-    Inventory''')
-    print(inventory)
-
-
-
 #KYSYTYT TIEDOT
 user_nimi = input("Kuka olet: ")
 user_ika = int(input("Ikä: "))
@@ -38,4 +10,23 @@ if user_ika <= 11:
 if user_ika >= 12:
     print("Tervetuloa LABRAAN", user_nimi, "!")
     time.sleep(1)
+
+#PELAAJA
+class User:
+    def __init__(self, name, health: int, damage: int, ):
+        self.name = name
+        self.health = health
+
+
+main_user = User(user_nimi, "ylös")
+
+
+#SATUS
+def status():
+    print(f'''
+    {user_nimi} 
+    ELÄMÄT:{main_user.health} KANTOPAINO:{main_user.weight}
+    -------------------------------------------
+    Inventory''')
+    print(inventory)
 

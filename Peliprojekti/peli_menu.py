@@ -1,8 +1,4 @@
-
-def aloita():
-    print("aloita -func")
-    
-    
+  
 def ohjeet():
     print('''
         -----------------------------------------------------------------
@@ -24,25 +20,24 @@ def ohjeet():
         INVENTAARIO
         -----------------------------------------------------------------''')
     
-
 def sulje():
     print('Sulje peli kiejoittamalla "lopeta": ')
     komento = input("> ").lower()
     if komento == "lopeta":
         quit()
 
-
 def menu():
-    print('''
-                 MENU 
-    ALOITA      OHJEET      SULJE''')
-    komento = input("> ").lower()
-    if komento == "aloita":
-        aloita()
-    if komento == "ohjeet":
-        ohjeet()
-    if komento == "sulje":
-        sulje()
+    while True:
+        print('''
+                    MENU 
+        ALOITA      OHJEET      SULJE''')
+        komento = input("> ").lower()
+        if komento == "aloita":
+            break
+        if komento == "ohjeet":
+            ohjeet()
+        if komento == "sulje":
+            sulje()
 
-while True:
-    menu()
+if __name__ == "__main__":
+    print("Test")

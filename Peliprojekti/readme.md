@@ -19,19 +19,19 @@ Inventori jossa on painoraja? Inviin vois lisätä/poistaa tavaraa, vois saada l
 Vaikeustaso??
 
 KARTTA:
- --------------------------------------------------------
- |         --------     --------     --------     ----  |
- |        |   1    |---|    2   |---|    4   |---|  6 | |
- |         --------     --------     --------     ----  |
- |        /                  |             |            |
- |    -----               --------      --------        |
- |   |ALKU |             |   3    |    |    5   |       |
- |    -----               --------      --------        |
- |                                           |          |
- |                                          ---         |
- |                                         |WIN|        |
- |                                          ---         |
- --------------------------------------------------------           
+ ----------------------------------------------
+ |   ---    --------     --------     ----    |
+ |  |   |--|        |---|        |---|    |   |
+ |   ---    --------     --------     ----    |
+ |    ^           |           |               |
+ | Olet tässä   --------      --------        |
+ |             |        |    |        |       |
+ |              --------      --------        |
+ |                                 |          |
+ |                                ---         |
+ |   Liiku kartan mukaan         |   |        |
+ |                                ---         |
+ ----------------------------------------------       
 
 Maailma jossa ihmiset on muuttanu ilmastonmuutoksen takia maan alle.
 Muutosta on yli (hyvin monta vuotta). Kukaan elävä ihminen ei ole käynyt maan pinnalla, mutta huhuja kuitenkin sinne pääsystä on.
