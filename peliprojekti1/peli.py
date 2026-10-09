@@ -1,9 +1,14 @@
+with open("C:\\Users\\milla\\Documents\\Python-harjoitukset\\peliprojekti1\\intro.txt","r") as tiedosto:
+    data = tiedosto.read()
+    print(data)
+
 #TÄNNE IMPORTATAAN KAIKKI
 import time
 import user
 import menu
 import reitti1
 import reitti2
+import save
 # import reitti3
 
 reppu = []
@@ -15,7 +20,9 @@ print("lets go")
 print("1: Menee reitti 1")
 print("2: Menee reitti 2")
 print("3: Menee reitti 3")
-valinta = input("Mitä teet (1/2/3)\n> ")
+valinta = input(f"Mitä teet {user.user_nimi} (1/2/3)\n> ").lower()
+if valinta == "save":
+    save.save()
 if valinta == "1":
     reitti1.reitti1()
 elif valinta == "2":
