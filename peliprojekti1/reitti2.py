@@ -2,11 +2,11 @@
 
 def reitti2():
     print("reitti 2 - täällä valitaan a vai b")
-    print("valitse reitti a tai b").lower()
+    print("valitse reitti a tai b")
     y = input("> ")
-    if y == "a":
+    if y == "1":
         reitti2_a()
-    if y == "b":
+    if y == "1":
         reitti2_b()
 
 def reitti2_a():

@@ -24,18 +24,29 @@ Puhetta?
 
 # RAKENNE
 
-peli.py on main tiedosto johon importataan muut. Tulee selkeämmän ja puhtaamman näkönen.
+PELI:
+    Pelin pää tiedosto jonka kautta peli pelataan on peli.py. Tämä tiedosto pidetään selkeänä ja ns puhtaana.
 
-Kaikille reiteille on omat tiedostot (reitti1.py, reitti2.py ja reitti3.py)
+REITIT:
+    Eri reiteille on omat tiedostot johon rakentuu reittien rakenne.
 
-Menu ja user tiedoille on omat tiedostot myös.
+CLASSIT:
+    hahmot.py tiedostossa on hahmo classi josta on luotu pelaajalle oma classi ja vihulle oma classi. Hahmo classistä löytyy myös ase class jonka sisällä on toiminta aseen nostamiseen ja jättämiseen.
+    healthbar.py sisällä on hahmo classin healthbar eli elämien seuraaminen. Healthbar toimii hahmo ja ase classien kanssa combat systeeminä kun pelaaja valitsee reitin 3.
 
-Reitti tiedostoihin tulee jokaiselle reitille omat funktiot ja classit. Jos useampi reitti tarttee samaa funktiota tai classia niin importataan.
+MENU:
+    Menun sisällä on omat funktiot. Pelin sulkeminen, aloittaminen ja tallentaminen.
 
-Menulla omat funktiot sisällä.
+USER:
+    user.py tiedot kysytään ihan ensimmäisenä kun peli aloitetaan. Siellä kysytään nimi ja ikä. Molempia pitää vielä korjata koska nyt jos esim vahingossa painaa enteriä niin peli joko menee eteenpäin tai lopettaa kokonaan.
 
-Userilla vain inputteja ja if lauseita.
+SAVE:
+    Save.py kautta löytyy tallentaminen joka viedään json tiedostoon. Tätä pitää vielä korjailla koska tällä hetkellä tallentuu vain pelaajan nimi ja ikä eikä esim mihin kohtaan peliä pelaaja jäi.
 
 # JUTTUJA
 
-tehty json ja tallennus toiminto
+tehty json ja tallennus toiminto. 9.10.2026
+tehty combat-systeemi ja classeja. 11.10.2026
+peli tarttee vielä nimen ja tarinan koodin ympärille.
+2 reitti puuttuu vielä kokonaan. Sinne vois tehä koodinpurku tms.
+Pitää myös korjata kaikkien inputtien kohdalla elset.
