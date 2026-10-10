@@ -8,21 +8,19 @@ class Auto:
         self.kuljettu_matka = kuljettu_matka
 
     def kiihdyta(self, muutos):
-        if muutos <= 0:
-            self.tamanhetkinen_nopeus += muutos
-        else: 
-            self.tamanhetkinen_nopeus += muutos
-            
+        self.tamanhetkinen_nopeus = self.tamanhetkinen_nopeus + muutos
+        if float(self.tamanhetkinen_nopeus) > float(self.huippunopeus):
+            self.tamanhetkinen_nopeus = self.huippunopeus
+        if float(self.tamanhetkinen_nopeus) < 0:
+                    self.tamanhetkinen_nopeus = 0
+        return muutos
         
-       
-uusi_auto = Auto("ABC-123", "142 km/h")
+uusi_auto = Auto("ABC-123", 142)
 uusi_auto.kiihdyta(30)
-print(uusi_auto.tamanhetkinen_nopeus)
 uusi_auto.kiihdyta(70)
+uusi_auto.kiihdyta(51)
 print(uusi_auto.tamanhetkinen_nopeus)
-uusi_auto.kiihdyta(50)
-print(uusi_auto.tamanhetkinen_nopeus)
+
 uusi_auto.kiihdyta(-200)
-print(uusi_auto.tamanhetkinen_nopeus)
 
 print(f"Uuden auton \nRekisteri numero: {uusi_auto.rekisteritunnus} \nHuippunopeus: {uusi_auto.huippunopeus}\nTämänhetkinen nopeus: {uusi_auto.tamanhetkinen_nopeus}km/h \nKuljettu matka: {uusi_auto.kuljettu_matka}km")

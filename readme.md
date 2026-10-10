@@ -21,25 +21,29 @@ Tein tehtävät 1, 2, 3, 4 ja 5.
 
 ## Moduuli 6
 
-Tein tehtävät 1, 2
-Vielä kesken
+Tein tehtävät 1, 2, 3 ja 4. (kaikki)
+
 
 ## Moduuli 7
 
-Vielä tekemättä, 1 ja 2 aloitettu
+Tein tehtävät 1, 2, 3, 4, 5 ja 6 (kaikki)
 
 ## Moduuli 8
 
-Tein tehtävät 1 ja 2. 3 vielä tekemättä
+Tein tehtävät 1, 2 ja 3 (kaikki)
 
 ## Moduuli 9
 
-Tein tehtävät 1
-2 aloitettu ja muute kesken
+Tein tehtävät 1, 2, 3 ja 4 (kaikki)
 
 ## Moduuli 10
 
-Vielä tekemättä
+Tein tehtävät 1, 2, 3
+Tehtävä 4 puuttuu
 
 ## Moduuli 11
 
+Tein tehtävän 1
+Tehtävä 2 puuttuu
+
+## NYT ON TEHTÄVÄT TEHTY ##

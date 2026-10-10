@@ -35,3 +35,7 @@ Reitti tiedostoihin tulee jokaiselle reitille omat funktiot ja classit. Jos usea
 Menulla omat funktiot sisällä.
 
 Userilla vain inputteja ja if lauseita.
+
+# JUTTUJA
+
+tehty json ja tallennus toiminto
