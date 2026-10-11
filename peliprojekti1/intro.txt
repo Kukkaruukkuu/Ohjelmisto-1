@@ -1,1 +1,16 @@
-TÄHÄN TULEE OHJEET JA INTRO(tarina background tms)
+OHJEET:
+Peli ohjeistaa eteenpäin mennessä mitä pitää tehdä.
+
+TARINA:
+Ihmiset ovat muuttaneet monta sataa vuotta sitten heidän aiheuttaman ilmastonmuutoksen takia maanpinnan alle. 
+Maanpinnalla eläminen ei ollut enään mahdollista, joten kehitettiin hanke, jolla muutettiin ihmiset pois pinnalta.
+Kukaan elävä ihminen ei ole nähnyt maanpinnalle.
+Huhuja kuitenkin on eräästä labrasta, jonka sisällä on hissi. Hissin kautta on kerrottu pääsevän maanpinnalle.
+
+Olet päättänyt lähteä etsimään tätä kyseistä labraa.
+
+Pitkän matkan jälkeen saavut labran ovelle. Se on ränsistynyt ja aution näköinen. Koko rakennus on pimeänä.
+
+Pääset nyt pelaamaan peliä.
+
+Onnea matkaan!

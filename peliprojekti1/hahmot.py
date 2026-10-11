@@ -24,7 +24,7 @@ class Hahmo:
         kohde.health -= self.ase.damage
         kohde.health = max(kohde.health, 0)
         kohde.healthbar.muutos()
-        print(f"{self.nimi} teki {self.ase.damage} vahinkoa {kohde.nimi} käyttämällä asetta {self.ase.nimi}.")
+        print(f"{self.nimi} teki {self.ase.damage} vahinkoa käyttämällä asetta {self.ase.nimi}.")
 
 #PELAAJA CLASS
 class Pelaaja(Hahmo):
@@ -36,7 +36,7 @@ class Pelaaja(Hahmo):
 
     def ota(self, ase):
         self.ase = ase
-        print(f"{self.nimi} käyttää nyt asetta {self.ase.nimi}!")
+        print(f"{self.nimi} nosti {self.ase.nimi}!")
 
     def tiputa(self):
         print(f"{self.nimi} tiputti aseen {self.ase}!")
@@ -44,6 +44,14 @@ class Pelaaja(Hahmo):
 
 #VIHU CLASS
 class Vihu(Hahmo):
+    def __init__(self, nimi, health, ase):
+        super().__init__(nimi, health)
+        self.ase = ase
+
+        self.healthbar = healthbar.HealthBar(self, color = "red")
+
+#ROTTA CLASS
+class Rotta(Hahmo):
     def __init__(self, nimi, health, ase):
         super().__init__(nimi, health)
         self.ase = ase

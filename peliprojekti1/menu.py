@@ -1,40 +1,22 @@
+#IMPORTIT
 import save
 import user
-# def ohjeet():
-#     print('''
-#         -----------------------------------------------------------------
-#         KONRTOLLIT:
-        
-#         -----------------------------------------------------------------
-#         LIIKKUMINEN:
-#         Liiku kirjoittamalla jokin seuraavista: 
-#         YLÖS
-#         ALAS
-#         OIKEALLE
-#         VASEMMALLE
-#         -----------------------------------------------------------------
-#         STATUS:
-#         Avaa statuksesi kirjoittamalla: status.
-#         Statuksesta näet: 
-#         ELÄMIEN MÄÄRÄN
-#         KANTO PAINO
-#         INVENTAARIO
-#         -----------------------------------------------------------------''')
 
+#MENU
 def sulje():
-    print('Sulje peli kiejoittamalla "lopeta": ')
+    print('Sulje peli kirjoittamalla "lopeta": ')
     komento = input("> ").lower()
     if komento == "lopeta":
         quit()
 def menu():
     while True:
         print('''
-                    MENU 
-        ALOITA      OHJEET      SULJE''')
+                        MENU 
+        ALOITA      TALLENNUKSET      SULJE''')
         komento = input("> ").lower()
         if komento == "aloita":
             break
-        if komento == "jatka":
+        if komento == "tallennukset":
             save_data = save.load()
             user.user_nimi = save_data["pelaaja"]
             user.user_ika = save_data["ika"]

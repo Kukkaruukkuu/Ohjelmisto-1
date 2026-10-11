@@ -1,10 +1,13 @@
 ## Ohjelmisto 1 - PELIPROJEKTI ##
 
-pelin nimi tähän
+LABRA
 
 **Milla Sundell**
 
 Aikaisempi oli niin sekava niin piti alottaa alusta.
+
+PROJEKTITEHTÄVIEN 1-4 PALAUTUKSET ON NYT SIIRTYNYT UUDEN PROJEKTIKANSION ALLE!
+Eli kaikki Omaan palautetut linkit ovat ns. vanhoja paitsi tehtävä 5.
 
 # IDEOITA
 
@@ -22,7 +25,7 @@ Portal/FallOut/Stray inspiroima maanalainen asutus josta hissillä ylös?
 Roskien keruu valintapeli?
 Puhetta?
 
-# RAKENNE
+# TIEDOSTOJEN RAKENNE
 
 PELI:
     Pelin pää tiedosto jonka kautta peli pelataan on peli.py. Tämä tiedosto pidetään selkeänä ja ns puhtaana.
@@ -38,7 +41,7 @@ MENU:
     Menun sisällä on omat funktiot. Pelin sulkeminen, aloittaminen ja tallentaminen.
 
 USER:
-    user.py tiedot kysytään ihan ensimmäisenä kun peli aloitetaan. Siellä kysytään nimi ja ikä. Molempia pitää vielä korjata koska nyt jos esim vahingossa painaa enteriä niin peli joko menee eteenpäin tai lopettaa kokonaan.
+    user.py tiedot kysytään ihan ensimmäisenä kun peli aloitetaan. Siellä kysytään nimi ja ikä.
 
 SAVE:
     Save.py kautta löytyy tallentaminen joka viedään json tiedostoon. Tätä pitää vielä korjailla koska tällä hetkellä tallentuu vain pelaajan nimi ja ikä eikä esim mihin kohtaan peliä pelaaja jäi.
@@ -47,6 +50,24 @@ SAVE:
 
 tehty json ja tallennus toiminto. 9.10.2026
 tehty combat-systeemi ja classeja. 11.10.2026
-peli tarttee vielä nimen ja tarinan koodin ympärille.
-2 reitti puuttuu vielä kokonaan. Sinne vois tehä koodinpurku tms.
-Pitää myös korjata kaikkien inputtien kohdalla elset.
+viimeistelty peli 11.10.2026
+
+# REITTIEN RAKENNE
+
+|ALOITUS|
+    ---|reitti 1|
+            |reitti 1a|>> Kuolema >> LOSE
+            
+            |reitti 1b|>> ei avainkorttia >> reitti 2
+                |reitti 1b|>> avainkortti >> WIN
+
+    ---|reitti 2|
+            |reitti 2a|>> ei saa ovea auki >> Kuolema >> LOSE
+
+            |reitti 2b|>> saa oven auki >> avainkorrti >> reitti 1b >> WIN
+
+    ---|reitti 3|
+            |reitti 3a|>> ei nosta kirvestä >> kuolee >> LOSE
+                |reitti 3a|>> nostaa kirveen >> WIN
+
+            |reitti 3b|>> yrittää hiipiä >> kuolema >> LOSE
