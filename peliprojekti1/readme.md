@@ -24,6 +24,8 @@ Kestävä kehitys pitää olla osana.
 Portal/FallOut/Stray inspiroima maanalainen asutus josta hissillä ylös?
 Roskien keruu valintapeli?
 Puhetta?
+Kestäväkehitys:
+Ilmastonmuutos ja sen tuottama tuho maapallolle.
 
 # TIEDOSTOJEN RAKENNE
 
